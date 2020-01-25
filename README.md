@@ -4,7 +4,7 @@ Personal Angular project for learning and personal stuff
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
-## setup new angular project
+## Setup new angular project
 ```
 npm install @angular/cli
 npm ng new my-app
@@ -15,6 +15,17 @@ npx ng serve
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+To serve with ExpressJS:
+```
+npm run-script build
+```
+in order to generate `dist/` folder
+
+and then 
+```
+npm run-script start
+```
 
 ## Code scaffolding
 
